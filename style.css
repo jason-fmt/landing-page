@@ -1,0 +1,29 @@
+* {
+  margin: 0 auto;
+  font-family: 'Roboto';
+}
+
+header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1F2937;
+}
+
+nav > ul {
+  display: flex;
+  list-style: none;
+  column-gap: 16px;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+nav li {
+  cursor: pointer;
+}
+
+.title {
+  font-size: 24px;
+  color: #F9FAF8;
+}
