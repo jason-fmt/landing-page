@@ -34,7 +34,7 @@ header > p {
 main {
   background: #1F2937;
   display: flex;
-  padding: 40px;
+  padding: 80px 40px;
 }
 
 main section {
@@ -61,4 +61,93 @@ section > button {
   border-radius: 5px;
   color: #F9FAF8;
   cursor: pointer;
+}
+
+.info-section {
+  display: flex;
+  flex-direction: column;
+  padding: 60px 120px;
+}
+
+.info-section > h2 {
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.info-boxes {
+  display: flex;
+  padding-top: 30px;
+  justify-content: center;
+}
+
+.empty-box {
+  border: 3px solid #3883F6;
+  height: 140px;
+  width: 140px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.box-text {
+  padding: 0 48px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.quote-section {
+  background-color: #E5E7EB;
+  padding: 100px 240px;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 200;
+  color: #1F2937;
+}
+
+.author {
+  text-align: right;
+  padding-right: 40px;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.sign-up-section {
+  background-color: #3883F6;
+  display: flex;
+  margin: 80px 180px;
+  padding: 40px 30px;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-section {
+  color: #F9FAF8;
+}
+
+.sign-up-upper-text {
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.sign-up-lower-text {
+  margin-top: 2px;
+  color: #E5E7EB;
+}
+
+.sign-up-section button {
+  border: 1.5px solid #F9FAF8;
+  padding: 5px 24px;
+  font-weight: 600;
+}
+
+footer {
+  background: #1F2937;
+  padding: 40px;
+  color: #F9FAF8;
+  text-align: center;
+  font-weight: 300;
+  font-size: 16px;
 }
