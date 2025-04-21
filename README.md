@@ -2,6 +2,6 @@
 
 Simple webpage design. 
 
-#description
+# description
 
 Practiced using flexbox to position elements.
